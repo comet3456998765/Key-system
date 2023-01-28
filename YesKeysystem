@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "World Hub Key system V3.0", HidePremium = false,IntroText = "World Hub Key System V3.0", SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "World Hub Key system V3.0", HidePremium = false,IntroEnabled = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local generatedKeys = {}
 
 local function generateKey()
