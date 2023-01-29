@@ -43,7 +43,7 @@ Tab:AddTextbox({
 		end
 		if keyExists then
 			Tab:AddLabel("running World Hub!")
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/NewSkHub/main/World%20Hub"))()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/comet3456998765/NewSkHub/main/World%20Hub.lua"))()
 			wait("10")
 			OrionLib:Destroy()
 		else
